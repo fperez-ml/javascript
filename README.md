@@ -4,3 +4,4 @@ Repositorio con ejemplos de JavaScript para el módulo 0373 - Lenguajes de marca
 
 ## Ejemplos
 - Hola Mundo, [https://fperez-ml.github.io/javascript/hola-mundo/](https://fperez-ml.github.io/javascript/hola-mundo/)
+- Ejemplo 1: Ejemplo de C&oacute; JavaScript ubicado en un fichero externo [click](https://fperez-ml.github.io/javascript/ejemplo1)
