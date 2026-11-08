@@ -1,1 +1,6 @@
 # javascript
+
+Repositorio con ejemplos de JavaScript para el módulo 0373 - Lenguajes de marcas y sistemas de gestión de información de Desarrollo de Aplicaciones Multiplataforma
+
+## Ejemplos
+- Hola Mundo, [https://fperez-ml.github.io/javascript/hola-mundo/](https://fperez-ml.github.io/javascript/hola-mundo/)
