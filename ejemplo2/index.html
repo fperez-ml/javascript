@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>EJEMPLO 2: RELOJ DIGITAL</title>
+    <script src="js/codigo.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>EJEMPLO 2: RELOJ DIGITAL</h1>
+    </header>
+    <section id="descripcion">
+        <p>
+            Este ejemplo práctico combina varios métodos del objeto Date para construir un reloj digital en tiempo real.
+        </p>
+
+        <p>
+            La función <code>mostrarHora()</code> recupera la hora, los minutos y los segundos actuales, los formatea y
+            los inserta en un elemento HTML con el <code>id="reloj"</code>.
+        </p>
+
+        <p>
+            Crucialmente, <code>setTimeout(mostrarHora, 1000)</code> se llama a sí mismo recursivamente cada 1000
+            milisegundos (1 segundo), lo que garantiza que la hora se actualice continuamente, simulando el
+            funcionamiento de un reloj en vivo en la página web.
+        </p>
+
+    </section>
+    <hr>
+    <section id="ejemplo2">
+        <p>RELOJ: <span id="reloj"></span></p>
+
+        <button onclick="mostrarHora()">Haz clic aquí para mostrar hora</button>
+
+    </section>
+    <hr>
+    <section id="advertencia">
+        <p><strong>IMPORTANTE:</strong>
+        <ul>
+            <li>Posteriores ejemplos veremos como formatear la hora con dos d&iacute;gitos</li>
+            <li>La función <code>setTimeout(mostrarHora, 1000)</code> es algo avanzado para los objetivos del módulo, aunque se incluye como ejemplo de interactividad que ofrece JavaScript</li>
+        </ul>
+
+        </p>
+    </section>
+</body>
+
+</html>
